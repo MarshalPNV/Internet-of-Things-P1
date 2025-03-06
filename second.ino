@@ -33,10 +33,10 @@ void loop()
     Serial.println("     |||||||||     ");
     Serial.println("   |||||||||||||   ");
     Serial.println(" ||||||||||||||||| ");
-    Serial.println("   |||||||||||||   ");
-    Serial.println("     |||||||||     ");
-    Serial.println("       ||||||      ");
-    Serial.println("         ||        ");
+    Serial.println("         |         ");
+    Serial.println("         |         ");
+    Serial.println("         |         ");
+    Serial.println("         |         ");
   
 
 // saves data to .csv file
