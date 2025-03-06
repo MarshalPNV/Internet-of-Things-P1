@@ -50,7 +50,7 @@ if (dataFile)
   } 
 else 
   {
-    Serial.println("Error opening soundlog");
+    Serial.println("Error opening soundlog"); // error message if the file system doesn't work
   } 
   }
   delay(50); //a shorter delay between readings
