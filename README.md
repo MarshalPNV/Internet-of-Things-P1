@@ -1,4 +1,4 @@
 # Internet-of-Things-P1
 First IoT project
 
-Footraffic sound sensor 
+Footraffic tracker (using sound sensor on Arduino Yun)
