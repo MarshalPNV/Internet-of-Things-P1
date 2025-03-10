@@ -40,7 +40,7 @@ void loop()
   
 
 // saves data to .csv file
-File dataFile = FileSystem.open("/mnt/sd/SoundLog.csv", FILE_APPEND); // sda1 / sd
+File dataFile = FileSystem.open("/mnt/sda1/SoundLog.csv", FILE_APPEND); // sda1 / sd
 if (dataFile) 
   {
     dataFile.print(millis());
@@ -53,5 +53,5 @@ else
     Serial.println("Error opening soundlog"); // error message if the file system doesn't work
   } 
   }
-  delay(50); //a shorter delay between readings
+  delay(200); //a shorter delay between readings
 }
