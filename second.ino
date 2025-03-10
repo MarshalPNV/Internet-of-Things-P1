@@ -35,7 +35,7 @@ void loop()
 File dataFile = FileSystem.open("/mnt/sda1/SoundLog.csv", FILE_APPEND); // sda1 / sd
 if (dataFile) 
   {
-    secondsElapsed = millis() / 1000; 
+    unsigned long secondsElapsed = millis() / 1000; 
     dataFile.print(secondsElapsed);
     dataFile.print(",");
     dataFile.println(soundValue);
