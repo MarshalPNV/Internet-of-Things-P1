@@ -28,15 +28,7 @@ void loop()
 //if a value higher than 500 is registered, we will print the following
 //this is done so that we can clearly see if the threshold is met
   if (soundValue > 500) { 
-    Serial.println("         ||        ");
-    Serial.println("       ||||||      ");
-    Serial.println("     |||||||||     ");
-    Serial.println("   |||||||||||||   ");
-    Serial.println(" ||||||||||||||||| ");
-    Serial.println("         |         ");
-    Serial.println("         |         ");
-    Serial.println("         |         ");
-    Serial.println("         |         ");
+    Serial.println("OVER 500");
   
 
 // saves data to .csv file
