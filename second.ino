@@ -32,7 +32,7 @@ void loop()
   
 
 // saves data to .csv file
-File dataFile = FileSystem.open("/mnt/sda1/SoundLog.csv", FILE_APPEND); // sda1 / sd
+File dataFile = FileSystem.open("/mnt/sd/SoundLog.csv", FILE_APPEND); // sda1 / sd
 if (dataFile) 
   {
     unsigned long secondsElapsed = millis() / 1000; 
